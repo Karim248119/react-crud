@@ -22,7 +22,7 @@ export default function App() {
     localStorage.setItem("products", JSON.stringify(products));
     setFilteredProducts(
       products
-        .map((product, index) => ({ ...product, index })) // Add original index to each product
+        .map((product, index) => ({ ...product, index }))
         .filter((product) => product.name.toLowerCase().includes(searchQuery))
     );
   }, [products, searchQuery]);

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Table({ products, deleteProduct, EditProduct }) {
   return (
-    <div className="overflow-x-auto w-[90%] md:w-[80%] mx-auto shadow-2xl ">
+    <div className="overflow-x-auto w-[90%] md:w-[80%] mx-auto shadow-2xl mb-5">
       <table className="min-w-full bg-black text-center">
         <thead>
           <tr className="bg-gray-900 font-medium text-gray-200 uppercase text-xs md:text-sm">
